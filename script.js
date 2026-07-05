@@ -1,9 +1,9 @@
 const series = [
   {
-    title: "夜景氛围",
-    kicker: "烟花 / 城市 / 微光",
+    title: "夜色微光",
+    kicker: "烟火 / 城市 / 微光",
     cover: "assets/photos/night_fire_04.jpg",
-    note: "用环境光和烟火做情绪中心，适合展示夜景控光与现场引导。",
+    note: "烟火和城市光源留在背景里，人物面部保持安静，形成夜色中的呼吸感。",
     images: [
       "night_fire_04",
       "night_fire_05",
@@ -13,17 +13,17 @@ const series = [
     ],
   },
   {
-    title: "低调棚拍",
-    kicker: "Low-key / 光比 / 肖像",
+    title: "暗室低调",
+    kicker: "侧光 / 暗部 / 肖像",
     cover: "assets/photos/lowkey_04.jpg",
-    note: "用暗部、侧光和投影建立人物轮廓，画面更克制。",
+    note: "用侧光压住背景，让轮廓、眼神和手部动作成为主要信息。",
     images: ["lowkey_04", "lowkey_05", "lowkey_01", "lowkey_02", "lowkey_03"],
   },
   {
-    title: "主题策划",
+    title: "节日布景",
     kicker: "布景 / 道具 / 情绪",
     cover: "assets/photos/story_christmas_03.jpg",
-    note: "从场景、道具到人物状态，强调一组照片的完整气氛。",
+    note: "雪夜、圣诞与哥特主题都先建立场景，再让人物动作进入画面。",
     images: [
       "story_christmas_03",
       "story_christmas_01",
@@ -36,10 +36,10 @@ const series = [
     ],
   },
   {
-    title: "季节人像",
+    title: "季节流动",
     kicker: "春樱 / 秋枫 / 花海",
     cover: "assets/photos/season_cherry_02.jpg",
-    note: "用前景、色彩和运动感，让自然环境参与叙事。",
+    note: "用花枝、落叶和前景虚化包围人物，让季节成为画面的第一层情绪。",
     images: [
       "season_cherry_02",
       "season_cherry_01",
@@ -52,17 +52,17 @@ const series = [
     ],
   },
   {
-    title: "校园叙事",
+    title: "校园静叙",
     kicker: "日常 / 窗光 / 状态",
     cover: "assets/photos/campus_02.jpg",
-    note: "以安静的姿态和环境光表现人物状态，减少过度摆拍。",
+    note: "保留阅读、窗边和水面这些日常细节，让照片有更轻的生活感。",
     images: ["campus_02", "campus_01", "campus_03", "daily_lake_01", "daily_lake_02", "daily_lake_03"],
   },
   {
-    title: "风格造型",
+    title: "国风造型",
     kicker: "国风 / 妆造 / 场景",
     cover: "assets/photos/style_hanfu_07.jpg",
-    note: "在服装和场景限制下保持人物、背景和色彩统一。",
+    note: "在服饰、妆造和复杂场景中统一色调，让人物仍然是视觉中心。",
     images: [
       "style_hanfu_07",
       "style_hanfu_01",
