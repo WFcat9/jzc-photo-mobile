@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="贾志超人像摄影作品集，展示主题策划、光影控制、人物引导与成组拍摄能力。"
+    />
+    <title>贾志超｜人像摄影作品集</title>
+    <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="32" fill="%23eadfcc"/><text x="32" y="38" text-anchor="middle" font-size="18" font-family="Arial" font-weight="700" fill="%2312110f">JZC</text></svg>' />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient" aria-hidden="true"></div>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="返回顶部">
+        <span class="brand-mark">JZC</span>
+        <span>人像摄影作品集</span>
+      </a>
+      <button class="menu-button" type="button" aria-label="打开导航">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <nav class="nav-panel" aria-label="页面导航">
+      <a href="#series">作品组</a>
+      <a href="#method">拍摄方法</a>
+      <a href="#review">面试看点</a>
+      <a href="https://wfcat9.github.io/jzc-photo-screen/" target="_blank" rel="noreferrer">横屏版</a>
+    </nav>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-image glass">
+          <img src="assets/photos/night_fire_04.jpg" alt="夜景烟花人像作品" />
+        </div>
+        <div class="hero-copy reveal">
+          <p class="overline">人像 / 光影 / 策划</p>
+          <h1>贾志超<br />人像摄影<br />作品集</h1>
+          <p class="intro">
+            以自然人像和主题场景为主，关注光线、人物状态与成组叙事。
+          </p>
+          <div class="hero-actions">
+            <a class="glow-button" href="#series">查看作品组</a>
+            <a class="ghost-button" href="#method">拍摄思路</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section quick-notes reveal" id="review">
+        <div>
+          <span>适合面试快速浏览</span>
+          <strong>看成片，也看策划和执行。</strong>
+        </div>
+        <div class="note-grid">
+          <p>主题搭建</p>
+          <p>光比控制</p>
+          <p>人物引导</p>
+          <p>系列交付</p>
+        </div>
+      </section>
+
+      <section class="section" id="series">
+        <div class="section-heading reveal">
+          <p class="overline">作品组</p>
+          <h2>每组只露一角，点开看完整系列。</h2>
+        </div>
+        <div class="series-grid" id="seriesGrid"></div>
+      </section>
+
+      <section class="section method" id="method">
+        <div class="section-heading reveal">
+          <p class="overline">拍摄方法</p>
+          <h2>从想法到成片的四个动作。</h2>
+        </div>
+        <div class="timeline" id="timeline">
+          <div class="timeline-rail" aria-hidden="true">
+            <span class="timeline-fill"></span>
+          </div>
+          <article class="timeline-item reveal">
+            <span class="dot"></span>
+            <img src="assets/photos/light_oldroom_01.jpg" alt="旧室微光人像" />
+            <div>
+              <h3>观察光线</h3>
+              <p>先确定主光、暗部和人物视线，减少画面噪声。</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="dot"></span>
+            <img src="assets/photos/story_christmas_03.jpg" alt="圣诞主题布景" />
+            <div>
+              <h3>建立情绪</h3>
+              <p>用场景、道具和色温，让照片有明确气氛。</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="dot"></span>
+            <img src="assets/photos/season_rape_01.jpg" alt="花海动态抓拍" />
+            <div>
+              <h3>引导动作</h3>
+              <p>给被拍者简单动作，让状态自然，不僵硬。</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="dot"></span>
+            <img src="assets/photos/lowkey_04.jpg" alt="低调光影棚拍" />
+            <div>
+              <h3>成组交付</h3>
+              <p>同一主题里保持色彩、构图和节奏统一。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section closing reveal">
+        <img src="assets/photos/style_hanfu_07.jpg" alt="国风场景全景作品" />
+        <div>
+          <p class="overline">完整展示</p>
+          <h2>横屏版更适合电脑放映。</h2>
+          <p>用于面试现场讲述作品结构、主题设定和光影处理。</p>
+          <a class="glow-button" href="https://wfcat9.github.io/jzc-photo-screen/" target="_blank" rel="noreferrer">
+            打开横屏放映版
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <div class="gallery-modal" id="galleryModal" aria-hidden="true" role="dialog" aria-label="作品组图库">
+      <button class="modal-close" type="button" aria-label="关闭图库">×</button>
+      <div class="modal-panel glass">
+        <div class="modal-heading">
+          <p id="modalKicker"></p>
+          <h2 id="modalTitle"></h2>
+          <span id="modalCount"></span>
+        </div>
+        <div class="modal-images" id="modalImages"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
